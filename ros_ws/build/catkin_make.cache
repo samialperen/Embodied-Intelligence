@@ -1,2 +1,0 @@
-assignment1
--DCATKIN_DEVEL_PREFIX=/home/alperen/MY_GITHUB/Embodied-Intelligence/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/alperen/MY_GITHUB/Embodied-Intelligence/ros_ws/install -G Unix Makefiles
