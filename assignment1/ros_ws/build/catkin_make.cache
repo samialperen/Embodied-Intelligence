@@ -1,0 +1,2 @@
+assignment1
+-DCATKIN_DEVEL_PREFIX=/home/saakgun/Projects/Embodied-Intelligence/assignment1/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/saakgun/Projects/Embodied-Intelligence/assignment1/ros_ws/install -G Unix Makefiles
