@@ -1,8 +1,0 @@
-prefix=/home/saakgun/Projects/Embodied-Intelligence/assignment1/ros_ws/install
-
-Name: assignment1
-Description: Description of assignment1
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/saakgun/Projects/Embodied-Intelligence/assignment1/ros_ws/install/lib 
-Requires: 
