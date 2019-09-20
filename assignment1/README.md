@@ -9,7 +9,7 @@ Braitenberg vehicles were implemented using ROS and Gazebo in C++. As a sensor, 
 
 **NOTE:** This assignment can be useful for people who are trying to subscribe ROS laserscan messages and process them since in the time being, there is not any source in the web in C++ although there are many in Python.
 
-Keywords: subscribe laserscan cpp, C++, process laserscan, laser processing, ROS, gazebo
+**Keywords:** subscribe laserscan cpp, C++, process laserscan, laser processing, ROS, gazebo
 
 As a simulation environment and robot, Turtlebot3 Burger was used in Turtlebot3 empty world environment. 
 
