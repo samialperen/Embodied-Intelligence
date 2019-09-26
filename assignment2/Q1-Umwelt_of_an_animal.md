@@ -2,7 +2,7 @@
 
 <img align="left" src="/assignment2/1.jpg">
 
-*Grimpoteuthis bathynectes* is belong to genus of pelagic umbrella octopuses known as the dumbo octopuses[1]. It is interesting that the name "dumbo" comes from their apperance similarity to the title character of Disney's 1941 film Dumbo.
+*Grimpoteuthis bathynectes* is belong to genus of pelagic umbrella octopuses known as the dumbo octopuses[1]. The name "dumbo" comes from their similar apperance to the title character of Disney's 1941 film Dumbo.
 
 To explain Umwelt of *Grimpoteuthis bathynectes* properly, one need to be aware of its living environment. They live in deep ocean floor at depths of around 3,000-4,000 meters [2]. According to [3], the known location of them is in the Tufts and Cascadia Abyssal Plains in the North Pacific off Oregon.
 
