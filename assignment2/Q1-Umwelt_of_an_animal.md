@@ -8,7 +8,9 @@ To explain Umwelt of *Grimpoteuthis bathynectes* properly, one need to be aware 
 
 <img align="right" src="/assignment2/2.jpg">
 
-The *motorium* of this species mainly consist of two dorsal arms with 47-58 suckers[3] Thanks to pair of cirri in each sucker, they create current of water that help bringing food closer to their mouth or break[2]. Moreover, they also have two fins on its mantle for active locomotion by drifting through the water[1]. Lastly, they have a U shaped shell, which help passive protection[3].
+The *motorium* of this species mainly consist of two dorsal arms with 47-58 suckers[3] Thanks to pair of cirri in each sucker, they create current of water that help bringing food closer to their mouth or break[2]. Moreover, they also have two fins on its mantle for active locomotion by drifting through the water[1]. They can also use other types of locomition with the help of dorsal arms as it can be seen in [the video](https://www.youtube.com/watch?v=EUJifcX9Fmk). Lastly, they have a u shaped shell, which help passive protection[3].
+
+Their *sensorium* 
 
 
 
