@@ -67,16 +67,16 @@ catalyst.penup()
 catalyst.color("blue")
 catalyst.shape("turtle")
 
-random_pos_x = random.randint( (-area_length/2)+ (grid_length/2) ,(area_length/2)- (grid_length/2) )
-catalyst_pos_x = random_pos_x - (random_pos_x % (grid_length/2) )
-random_pos_y = random.randint( (-area_length/2)+ (grid_length/2) ,(area_length/2)- (grid_length/2) )
-catalyst_pos_y = random_pos_y - (random_pos_y % (grid_length/2) )
+random_pos_x = random.randint( (-area_length//2)+ (grid_length//2) ,(area_length//2)- (grid_length//2) )
+catalyst_pos_x = random_pos_x - (random_pos_x % (grid_length//2) )
+random_pos_y = random.randint( (-area_length//2)+ (grid_length//2) ,(area_length//2)- (grid_length//2) )
+catalyst_pos_y = random_pos_y - (random_pos_y % (grid_length//2) )
 
 # Catalyst shouldn't spawn on intersection of grid lines
 if (catalyst_pos_x % grid_length) == 0:
-    catalyst_pos_x = catalyst_pos_x + (grid_length/2)
+    catalyst_pos_x = catalyst_pos_x + (grid_length//2)
 if (catalyst_pos_y % grid_length) == 0:
-    catalyst_pos_y = catalyst_pos_y + (grid_length/2)   
+    catalyst_pos_y = catalyst_pos_y + (grid_length//2)   
 
 catalyst.setposition(catalyst_pos_x,catalyst_pos_y)
 
@@ -107,14 +107,22 @@ for y in range( (-area_length//2)+ (grid_length//2), (area_length//2) + (grid_le
             subst_index += 1
 
 
-    
+## Production (Number 4 in Paper Appendix)    
+
+# Find neighbor substrates to catalyst
+n = [] # occupied neighbor's index
+for i in range(substrate_number):
+    if ( substrates[i].xcor() == catalyst.xcor() ) and ( substrates[i].ycor() == (catalyst.ycor() + grid_length)):
+        n.append(i) # north of catalyst is occupied
+    if ( substrates[i].xcor() == catalyst.xcor() ) and ( substrates[i].ycor() == (catalyst.ycor() - grid_length)):
+        n.append(i) # south of catalyst is occupied
+    if ( substrates[i].xcor() == (catalyst.xcor() + grid_length) ) and (substrates[i].ycor() == catalyst.ycor() ):
+        n.append(i) # east of catalyst is occupied
+    if ( substrates[i].xcor() == (catalyst.xcor() - grid_length) ) and (substrates[i].ycor() == catalyst.ycor() ):
+        n.append(i) # west of catalyst is occupied
 
 
-
-
-
-
-
+print("Oh yeah")
 
 
 input("Press Any Key to Execute the Program")
