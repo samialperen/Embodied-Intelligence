@@ -81,6 +81,34 @@ if (catalyst_pos_y % grid_length) == 0:
 catalyst.setposition(catalyst_pos_x,catalyst_pos_y)
 
 
+## Spawn Substrates
+substrate_number = (area_length//grid_length)**2 - 1   #-1 is due to catalyst
+substrates = []
+for i in range(substrate_number):
+    substrates.append(turtle.Turtle())
+
+for substrate in substrates:
+    substrate.penup()
+    substrate.speed(10)
+    substrate.shape("circle")
+    substrate.color("green")
+
+# Numbers start from bottom left. For example,
+# ......
+# substrate 11 - substrate 12 - ... substrate 20  <-- one above of last room in the screen
+# subsrate 1   - substrate 2  - ... substrate 10  <-- last row in the screen 
+subst_index = 0
+for y in range( (-area_length//2)+ (grid_length//2), (area_length//2) + (grid_length//2), grid_length):
+    for x in range( (-area_length//2)+ (grid_length//2), (area_length//2) + (grid_length//2), grid_length):
+        if ( x == catalyst_pos_x) and ( y == catalyst_pos_y):
+            continue
+        else:            
+            substrates[subst_index].setposition(x,y)
+            subst_index += 1
+
+
+    
+
 
 
 
