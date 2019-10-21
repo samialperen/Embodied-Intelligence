@@ -8,10 +8,10 @@ The inspiration comes from Varela-Maturana-Uribe paper[1].
 * Python Turtle Library
 
 ## System Description
-Catalyst --> blue turtle
-Substrate --> green circle
-Link --> red circle
-bounded link --> blue circle
+* Catalyst --> blue turtle
+* Substrate --> green circle
+* Link --> red circle
+* bounded link --> blue circle
 
 ### Limitations
 Motion and production parts in the appendix of [1] is implemented. However, disintegration part is not implemented.
