@@ -82,20 +82,19 @@ catalyst.penup()
 catalyst.color("blue")
 catalyst.shape("turtle")
 
-# random_pos_x = random.randint( (-area_length//2)+ (grid_length//2) ,(area_length//2)- (grid_length//2) )
-# catalyst_pos_x = random_pos_x - (random_pos_x % (grid_length//2) )
-# random_pos_y = random.randint( (-area_length//2)+ (grid_length//2) ,(area_length//2)- (grid_length//2) )
-# catalyst_pos_y = random_pos_y - (random_pos_y % (grid_length//2) )
+random_pos_x = random.randint( (-area_length//2)+ (grid_length//2) ,(area_length//2)- (grid_length//2) )
+catalyst_pos_x = random_pos_x - (random_pos_x % (grid_length//2) )
+random_pos_y = random.randint( (-area_length//2)+ (grid_length//2) ,(area_length//2)- (grid_length//2) )
+catalyst_pos_y = random_pos_y - (random_pos_y % (grid_length//2) )
+# Catalyst shouldn't spawn on intersection of grid lines
+if (catalyst_pos_x % grid_length) == 0:
+    catalyst_pos_x = catalyst_pos_x + (grid_length//2)
+if (catalyst_pos_y % grid_length) == 0:
+    catalyst_pos_y = catalyst_pos_y + (grid_length//2)   
 
-# # Catalyst shouldn't spawn on intersection of grid lines
-# if (catalyst_pos_x % grid_length) == 0:
-#     catalyst_pos_x = catalyst_pos_x + (grid_length//2)
-# if (catalyst_pos_y % grid_length) == 0:
-#     catalyst_pos_y = catalyst_pos_y + (grid_length//2)   
-
-catalyst_pos_x = -60
-catalyst_pos_y = -100
-catalyst_index = 23
+#catalyst_pos_x = -60
+#catalyst_pos_y = -100
+#catalyst_index = 23
 catalyst.setposition(catalyst_pos_x,catalyst_pos_y)
 
 
